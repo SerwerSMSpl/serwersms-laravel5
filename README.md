@@ -30,8 +30,8 @@ app/config/app.php:
 	        Serwer\Sms\SmsServiceProvider::class,
 	    ],
 	    'sms'=>[
-        	'username' => 'username',
-        	'password' => 'password',
+			'username' => 'username',
+			'password' => 'password',
 			'api_url'  => 'https://api2.serwersms.pl/',
 			'format'   => 'json'
 		]
