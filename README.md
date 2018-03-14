@@ -28,7 +28,7 @@ app/config/app.php:
 	        ...
 	        ...
 	        Serwer\Sms\SmsServiceProvider::class,
-	    ]
+	    ],
 	    'sms'=>[
         	'username' => 'username',
         	'password' => 'password',
@@ -210,7 +210,7 @@ Pobieranie wiadomości przychodzących
 ```
 ## Wymagania
 
-php >= 5.3.9
+php >=7.*
 
 Laravel = 5.*
 
