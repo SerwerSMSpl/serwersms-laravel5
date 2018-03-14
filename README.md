@@ -12,7 +12,7 @@ Instalacja odbywa się poprzez composer i dodanie do pliku composer.json poniżs
         }
         ...
         "repositories" : [{
-            "type" : "git",
+            "type" : "vcs",
             "url" : "https://github.com/SerwerSMSpl/serwersms-laravel5.git"
          }],
     }
